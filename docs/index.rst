@@ -47,4 +47,4 @@ Hypermodern Python's usage looks like:
 License
 =======
 
-.. include:: ../LICENSE
+.. include:: ./LICENSE
