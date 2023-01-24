@@ -5,14 +5,14 @@ locations = "src", "tests", "noxfile.py", "docs/conf.py"
 package = "new_repository"
 
 
-@nox.session(python=["3.8", "3.7"])
+@nox.session(python="3.8")
 def tests(session):
     """Run the test suite."""
     session.run("poetry", "install", "--no-dev", external=True)
     session.run("pytest", "--cov")
 
 
-@nox.session(python=["3.8", "3.7"])
+@nox.session(python="3.8")
 def lint(session):
     """Lint using flake8."""
     args = locations
@@ -28,7 +28,7 @@ def black(session):
     session.run("black", *args)
 
 
-@nox.session(python=["3.8", "3.7"])
+@nox.session(python="3.8")
 def xdoctest(session):
     """Run examples with xdoctest."""
     args = ["all"]
