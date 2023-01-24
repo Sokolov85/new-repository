@@ -1,6 +1,13 @@
 The Hypermodern Python Project
 ==============================
 
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   license
+   reference
+
 The example project for the
 `Hypermodern Python <https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769>`_
 article series.
@@ -42,9 +49,3 @@ Hypermodern Python's usage looks like:
 .. option:: --help
 
    Display a short usage message and exit.
-
-
-License
-=======
-
-.. include:: ./LICENSE
