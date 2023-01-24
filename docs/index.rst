@@ -8,6 +8,7 @@ The Hypermodern Python Project
    license
    reference
 
+
 The example project for the
 `Hypermodern Python <https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769>`_
 article series.
