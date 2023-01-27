@@ -15,5 +15,5 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: pytest-resul-3.8
-        path: junit/test-result-3.8.xml
+        path: test-result-3.8.xml
       if: ${{ always() }}

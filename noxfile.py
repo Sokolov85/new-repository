@@ -9,7 +9,7 @@ package = "new_repository"
 def tests(session):
     """Run the test suite."""
     session.run("poetry", "install", external=True)
-    session.run("pytest", "--cov --junitxml=junit/test-result-3.8.xml")
+    session.run("pytest", "--cov --junitxml=test-result-3.8.xml")
 
 
 @nox.session(python="3.8")
